@@ -1,0 +1,136 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>关于我们</title>
+    <script src="jquery-1.7.min.js"></script>
+    <script>
+        $(function () {
+            var currentLocation = "About_Index";
+            var a = $("#" + currentLocation);
+            $("#nav .nav-menu a").removeClass("current");
+            a.addClass("current");
+        });
+    </script>
+    <script src="Layout.js"></script>
+    <link href="Layout.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <div id="nav">
+                <div class="nav-menu">
+                    <a id="Home_Index" href="/Home/Index">首页</a>
+                    <a href="#">每日记录</a>
+                    <a href="#">数据统计</a>
+                    <a id="About_Index" href="/About/Index">关于我们</a>
+                </div>
+            </div>
+        </div>
+        <div class="body">
+<link href="About.css" rel="stylesheet" />
+<script>
+    $(function () {
+        $(".img").mouseover(function () {
+            $(this).find(".text").attr("style", "position:relative;bottom:50px");
+            $(this).find(".transparent").show();
+        })
+        $(".img").mouseout(function () {
+            $(this).find(".text").attr("style", "position:relative;bottom:50px;top:3px;");
+            $(this).find(".transparent").hide();
+        });
+    })
+</script>
+<div class="ourpicture">
+    <div class="up">
+        <div class="img">
+            <p>
+                <img src="/Content/img/head/yrj.jpg" alt="" />
+            </p>
+            <p class="transparent">
+                人渣群主
+            </p>
+            <p class="text">yan_git</p>
+        </div>
+        <div class="img">
+            <p>
+                <img src="/Content/img/head/hzy.jpg" alt="" />
+            </p>
+            <p class="transparent">
+                苦逼学生
+            </p>
+            <p class="text">韩卓谕</p>
+        </div>
+        <div class="img">
+            <p>
+                <img src="/Content/img/head/wzq.jpg" alt="" />
+            </p>
+            <p class="transparent">
+                人参赢家
+            </p>
+            <p class="text" style="position:relative;bottom:50px;top:3px;">永恒</p>
+        </div>
+        <div class="img">
+            <p>
+                <img src="/Content/img/head/zhc.jpg" alt="" />
+            </p>
+            <p class="transparent">
+                灵魂医生
+            </p>
+            <p class="text">海城</p>
+        </div>
+    </div>
+    <div class="down">
+        <div class="img">
+            <p>
+                <img src="/Content/img/head/tjy.jpg" alt="" />
+            </p>
+            <p class="transparent">
+                砍鸡老大
+            </p>
+            <p class="text">吖滢 </p>
+        </div>
+        <div class="img">
+            <p>
+                <img src="/Content/img/head/drq.jpg" alt="" />
+            </p>
+            <p class="transparent">
+                智障儿童
+            </p>
+            <p class="text">DRQQQQ</p>
+        </div>
+        <div class="img">
+            <p>
+                <img src="/Content/img/head/zbk.jpg" alt="" />
+            </p>
+            <p class="transparent">
+                高冷饼仔
+            </p>
+            <p class="text">坤</p>
+        </div>
+        <div class="img">
+            <p>
+                <img src="/Content/img/head/xyy.jpg" alt="" />
+            </p>
+            <p class="transparent">
+                叔控贱人
+            </p>
+            <p class="text">Ann</p>
+        </div>
+        <!--
+        
+        
+        -->
+    </div>
+</div>
+</div>
+    <div class="footer">
+        <p>惠州八羊有限公司</p>
+        <p>Copyright © youngba.cn 2014 All Rights Reserved</p>
+    </div>
+    </div>
+</body>
+</html>
