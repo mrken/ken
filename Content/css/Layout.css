@@ -5,7 +5,7 @@ body { font-size: 100%; font-family: "Microsoft YaHei","Arial"; background: #f4f
 #nav .nav-menu a { display: block; float: left; height: 50px; padding: 0 40px; line-height: 50px; color: #666; font-size: 16px; text-decoration: none; }
 #nav .nav-current { position: absolute; bottom: -2px; height: 2px; overflow: hidden; background: #80b600; }
 .current { border-bottom: #80b600 2px solid; }
-.main { width: 1024px; margin-left: 440px; }
+.main { width: 1024px;}
 .head {background:url(../img/2.jpg)}
 .body {height:100%;background:#ffffff;}
 .footer {background:#616161;color: #b1b1b1;text-align: center;padding: 30px 0;width:1024px;bottom:0;}
