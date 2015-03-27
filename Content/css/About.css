@@ -1,0 +1,7 @@
+﻿.ourpicture {padding:20px 20px;text-align:center;}
+.ourpicture img {width:200px;height:200px;padding:15px;}
+.up {height:300px;margin-left:30px;}
+.down {height:300px;margin-left:30px;}
+.up div {height:260px;width:230px;float:left;cursor:pointer;}
+.down div{height:260px;width:230px;float:left;cursor:pointer;}
+.transparent{height: 50px; position: relative; bottom: 69px; font-size: large; background: #808080; opacity: 0.7; width: 200px; margin-left: 15px; display: none;line-height:50px;}
