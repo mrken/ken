@@ -9,6 +9,7 @@
         current.addClass("current");
     });
 	resize();
+    var head = $(".head").height();
     var h = document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight;
     //document.getElementById("main").style.minHeight = h - head - 70 + "px";
     //var height = $(".body").height();
@@ -27,5 +28,4 @@ function resize(){
 		var persent = (w-width)/2/w*100;
 		$(".main").css("margin-left",persent+"%");
 	}
-    var head = $(".head").height();
 }
