@@ -28,4 +28,7 @@ function resize(){
 		var persent = (w-width)/2/w*100;
 		$(".main").css("margin-left",persent+"%");
 	}
+	else{
+		$(".main").css("width","100%");
+	}
 }
